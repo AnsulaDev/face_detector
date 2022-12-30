@@ -1,16 +1,32 @@
-body {
+* {
   margin: 0;
-  font-family:  'Courier New', Courier, monospace;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, rgb(232, 146, 154), rgb(18, 243, 198));
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family:  'Courier New', Courier, monospace;
+  background: black;
 }
 
 button{
   cursor: pointer;
+}
+footer {
+
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  margin-top: auto;
+
 }
