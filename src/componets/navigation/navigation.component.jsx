@@ -1,6 +1,6 @@
 
 
-const Navigation =({onRouteChange,isSignedIn}) => {
+const Navigation =({onRouteChange, isSignedIn}) => {
 
     if(isSignedIn)
         return(
