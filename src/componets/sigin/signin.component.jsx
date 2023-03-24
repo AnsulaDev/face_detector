@@ -17,7 +17,7 @@ class Sigin extends Component{
     }
 
     onSubmitSignIn = () => {
-        fetch('https://face-detector-backend-production.up.railway.app/signin',{
+        fetch('https://sore-cyan-penguin-robe.cyclic.app/signin',{
             method:'post',
             headers:{'Content-Type': 'application/json'},
             body:JSON.stringify({

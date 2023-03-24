@@ -23,7 +23,7 @@ class Register extends Component {
     }
   
     onSubmitSignIn = () => {
-      fetch('https://face-detector-backend-production.up.railway.app/register', {
+      fetch('https://sore-cyan-penguin-robe.cyclic.app/register', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
